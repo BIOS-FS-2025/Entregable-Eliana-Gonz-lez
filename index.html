@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="./assets/CSS/styles.css">
 </head>
 <body>
+    <nav class="nav">
+    <div class="container-nav">
+        <div class="logo">
+            <img src="./assets/img/pec.png" alt="logo pec" class="logo-img">
+        </div>
+        <ul class="menu-navigation">
+            <li><a href="#ini">Inicio</a></li>
+            <li><a href="#recipe">Recetas</a></li>
+            <li><a href="#equi">Equivalencias</a></li>
+            <li><a href="#contact">Contáctanos</a></li>
+        </ul>
+    </div>
+    </nav>
     <section id="hero" class="hero">
         <div>
         <h1 class="hero-titulo">
@@ -48,6 +61,31 @@
             <h3 class="titulo-card">Red velvet</h3>
         </div>
         </div>
+        </section>
+        <section class="contact-section">
+            <div class="contact-container">
+            <h3 class="titulo-contacto">¿Tienes alguna duda sobre las recetas?</h3>
+            <p class="subtitulo-cont">Contáctanos aqui abajo 👇</p>
+            <form class="contact" action="#" method="POST">
+                <div class="info-contact">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="info-contact">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="tu@email.com" required>
+                </div>
+                <div class="info-contact">
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" placeholder="Escribe aqui tu mensaje..." rows="4" required></textarea>
+                </div>
+                <div class="boton-contacto">
+                <button type="submit" class="boton-enviar">
+                    <span>Enviar</span>
+                </button>
+                </div>
+            </form>
+            </div>
         </section>
     <main>
         <div class="info">
